@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    color: rgb(182, 179, 179);
+}
+p{
+    color: #000000;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgb(128,128,128);
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content:center
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Img/asrul.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+h1 span {
+    font-weight: bold;
+    color: #fff;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #5e5e5e;
+}
+.about-me {
+    padding: 50px 20px;
+    background-color: rgb(128,128,128);
+    color: #333;
+}
+
+.about-me .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-me h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.about-me p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.portfolio {
+    padding: 50px 20px;
+    background-color: #777777;
+}
+
+.portfolio .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    color: #666;
+}
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.photo {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+.photo img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.photo p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+}
+.content1 {
+    background-color: rgb(10, 10, 119);
+}
+.content1 h1 {
+    color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    font-size: 40px;
+}
+.content1 p {
+    color: #ffffff;
+}
+.content1 a img {
+    height: auto;
+    width: 50px;
+    margin: 0 1%;
+}
